@@ -1,0 +1,22 @@
+/* #main_nav{
+  background: orange;
+}
+
+#main_nav ol li {
+  float: left;
+  list-style: none;
+  margin: 0 20px;
+
+  background: green;
+  border: 10px solid blue;
+  padding: 0 20px;
+} */
+
+#main_nav ol {
+  display: flex;
+  justify-content: space-between;
+}
+
+#main_nav ol li {
+  list-style: none;
+}
